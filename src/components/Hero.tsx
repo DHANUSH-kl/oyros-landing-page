@@ -25,6 +25,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-gradient-primary hover:shadow-glow transition-all text-lg px-8 py-6 font-semibold"
+              onClick={() => window.open("https://calendly.com/gautam-malikwork/discovery-call-with-gautam ", "_blank")}
             >
               Start Free Trial
             </Button>
@@ -32,6 +33,8 @@ const Hero = () => {
               size="lg" 
               variant="outline" 
               className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all text-lg px-8 py-6 font-semibold"
+               onClick={() => window.open("https://calendly.com/gautam-malikwork/discovery-call-with-gautam ", "_blank")}
+              
             >
               <Play className="mr-2 h-5 w-5" />
               Watch Demo

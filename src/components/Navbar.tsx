@@ -27,7 +27,9 @@ const Navbar = () => {
                 {item}
               </a>
             ))}
-            <Button className="bg-gradient-primary hover:shadow-glow transition-all">
+            <Button className="bg-gradient-primary hover:shadow-glow transition-all"
+             onClick={() => window.open("https://calendly.com/gautam-malikwork/discovery-call-with-gautam ", "_blank")}
+            >
               Book a Demo
             </Button>
           </div>
@@ -56,7 +58,9 @@ const Navbar = () => {
                   {item}
                 </a>
               ))}
-              <Button className="bg-gradient-primary hover:shadow-glow transition-all w-full">
+              <Button className="bg-gradient-primary hover:shadow-glow transition-all w-full"
+               onClick={() => window.open("https://calendly.com/gautam-malikwork/discovery-call-with-gautam ", "_blank")}
+              >
                 Book a Demo
               </Button>
             </div>

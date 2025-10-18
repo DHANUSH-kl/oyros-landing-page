@@ -90,10 +90,11 @@ const Services = () => {
               <p className="text-foreground/60">Join hundreds of businesses scaling with AI voice</p>
             </div>
             <div className="flex gap-4">
-              <button className="bg-gradient-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:shadow-glow transition-all">
+              {/* <button className="bg-gradient-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:shadow-glow transition-all">
                 Start Free Trial
-              </button>
-              <button className="border border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all">
+              </button> */}
+              <button  onClick={() => window.open("https://calendly.com/gautam-malikwork/discovery-call-with-gautam ", "_blank")}
+               className="border border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all">
                 Book Demo
               </button>
             </div>

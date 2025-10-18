@@ -2,7 +2,7 @@ import { Play } from "lucide-react";
 
 const Demo = () => {
   return (
-    <section id="demo" className="py-20 lg:py-32 bg-background">
+    <section id="demo" className="  pb-20  bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-4">
